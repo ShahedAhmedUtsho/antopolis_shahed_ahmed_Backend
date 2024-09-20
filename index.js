@@ -18,8 +18,8 @@ app.use(express.json());
 // for use cross origin
 
 app.use(cors({
-  origin: ["https://antopolis-shahed-ahmed-frontend.vercel.app", "http://localhost:1000"],
-  optionsSuccessStatus: 200
+  origin: ["https://antopolis-shahed-ahmed-frontend.vercel.app", "http://localhost:1000","http://localhost:3000"],
+ credentials :true
 }));
 
 
